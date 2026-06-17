@@ -1,0 +1,9 @@
+{
+  "name": "opc-cognitive-workflow",
+  "version": "1.0.0",
+  "description": "燃冰认知模型 Skill 包 — 理解→分析→执行→交付 四步认知工作流",
+  "author": "燃冰",
+  "license": "MIT",
+  "keywords": ["cognitive-loop", "decision-framework", "workflow", "thinking"],
+  "main": "core/SKILL.md"
+}

@@ -1,0 +1,6 @@
+node_modules/
+.env
+output/
+~/.opc/
+*.log
+.DS_Store
