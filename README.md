@@ -6,7 +6,6 @@
 
 ```
 conceptionOS skill/
-├── conception 想法.txt           # 原始设计文档
 ├── v1-prompt/                    # Prompt 版（1 个文件）
 │   └── dist/prompt.txt           # 复制粘贴到 Agent 系统提示词
 ├── v2-skill-package/             # Skill 包版（35 个文件）
