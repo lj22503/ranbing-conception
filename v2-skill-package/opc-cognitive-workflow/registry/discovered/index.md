@@ -1,5 +1,22 @@
 # 已发现的外部 Skill 索引
 
+## 内置 Skill（opc-cognitive-workflow 原生，已标准化）
+
+以下技能已升级为标准化 SKILL.md 格式，可被 AI 自动发现和加载：
+
+| Skill | Location | When to Use |
+|-------|----------|-------------|
+| swot-analysis | stages/analyze/frameworks/swot/skills/SKILL.md | 战略选择、竞争分析、风险评估 |
+| first-principles-thinking | stages/analyze/frameworks/first-principles/skills/SKILL.md | 推翻假设、从根基重建、创新思考 |
+| four-dimension-evaluation | stages/analyze/frameworks/four-dimension/skills/SKILL.md | 评估可信度、判断信息可靠性 |
+| element-analysis | stages/analyze/frameworks/element/skills/SKILL.md | 结构拆解、根源诊断、MECE分析 |
+| value-cost-matrix | stages/analyze/frameworks/value-cost/skills/SKILL.md | 优先级排序、取舍决策、资源分配 |
+| cross-longitudinal-analysis | stages/analyze/frameworks/cross-longitudinal/skills/SKILL.md | 横纵研究、竞品对比、历史演进 |
+
+**加载方式：** 使用 Skill 工具加载对应路径的 SKILL.md
+
+---
+
 ## 合集类（4组，作者生态级别）
 
 ### 1. ljg-skills — 李继刚

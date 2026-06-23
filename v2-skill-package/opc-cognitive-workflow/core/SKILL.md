@@ -40,3 +40,35 @@
 - **质量门**（quality-gate.md）：交付前检查
 - **内部交付**（internal-handoff.md）：阶段间交接检查
 - **退化检测**（degradation-detection.md）：定期检查是否偏离认知模型
+
+## 标准化 Skill 索引
+
+分析阶段的每个框架已升级为标准化 SKILL.md 格式，可被 AI 自动发现和加载：
+
+| Framework | Location | Auto-Discovery Trigger |
+|-----------|----------|----------------------|
+| swot-analysis | stages/analyze/frameworks/swot/skills/SKILL.md | "strategy", "competitive", "positioning" |
+| first-principles-thinking | stages/analyze/frameworks/first-principles/skills/SKILL.md | "从根基", "推倒重来", "假设" |
+| four-dimension-evaluation | stages/analyze/frameworks/four-dimension/skills/SKILL.md | "可信", "判断", "评估可靠" |
+| element-analysis | stages/analyze/frameworks/element/skills/SKILL.md | "拆解", "要素", "结构" |
+| value-cost-matrix | stages/analyze/frameworks/value-cost/skills/SKILL.md | "优先级", "取舍", "值不值得" |
+| cross-longitudinal-analysis | stages/analyze/frameworks/cross-longitudinal/skills/SKILL.md | "来龙去脉", "竞品对比", "时间线" |
+
+**加载规则：** 使用 Skill 工具加载对应框架的 SKILL.md，每个文件包含完整的触发条件、方法步骤、完成标志。
+
+## v2.0 新增：纪律层配置
+
+`loops/gates/` 目录包含纪律层强化配置：
+
+| 文件 | 作用 |
+|------|------|
+| gates/config.md | 门禁强度等级（HARD/SOFT）|
+| gates/anti-rationalization.md | Anti-Rationalization 规则库 |
+
+**核心原则（不可违反）：**
+- 不替用户下结论
+- 不跳步
+- 先问再走
+- 选项不替选
+
+**Anti-Rationalization：** 详细规则见 `loops/gates/anti-rationalization.md`
